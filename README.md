@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-* Solution URL: [Solution](https://your-solution-url.com)
-* Live Site URL: [Live Site](https://your-live-site-url.com)
+* Solution URL: [Solution](https://github.com/blordeus/newsletter-sign-up-with-success-message-main.git)
+* Live Site URL: [Live Site](https://blordeus.github.io/newsletter-sign-up-with-success-message-main/)
 
 ## My process
 
