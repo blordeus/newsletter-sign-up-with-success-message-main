@@ -588,6 +588,10 @@ video {
   gap: 16px;
 }
 
+.gap-8 {
+  gap: 2rem;
+}
+
 .rounded-2xl {
   border-radius: 1rem;
 }
@@ -776,6 +780,12 @@ input::placeholder {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
+.hover\:from-\[\#f6bdca\]:hover {
+  --tw-gradient-from: #f6bdca var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(246 189 202 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
 .hover\:to-\[\#FF6A3A\]:hover {
   --tw-gradient-to: #FF6A3A var(--tw-gradient-to-position);
 }
@@ -795,6 +805,52 @@ input::placeholder {
   .max-sm\:bg-neutral4 {
     --tw-bg-opacity: 1;
     background-color: hsl(0 0% 100% / var(--tw-bg-opacity));
+  }
+
+  .max-sm\:pb-12 {
+    padding-bottom: 3rem;
+  }
+
+  .max-sm\:pb-8 {
+    padding-bottom: 2rem;
+  }
+
+  .max-sm\:pb-4 {
+    padding-bottom: 1rem;
+  }
+
+  .max-sm\:pb-2 {
+    padding-bottom: 0.5rem;
+  }
+
+  .max-sm\:pb-6 {
+    padding-bottom: 1.5rem;
+  }
+}
+
+@media (min-width: 640px) {
+  .sm\:mt-12 {
+    margin-top: 3rem;
+  }
+
+  .sm\:pt-8 {
+    padding-top: 2rem;
+  }
+
+  .sm\:pt-12 {
+    padding-top: 3rem;
+  }
+
+  .sm\:pb-12 {
+    padding-bottom: 3rem;
+  }
+
+  .sm\:pb-16 {
+    padding-bottom: 4rem;
+  }
+
+  .sm\:pb-20 {
+    padding-bottom: 5rem;
   }
 }
 
@@ -824,6 +880,26 @@ input::placeholder {
             margin-inline-end: 1rem;
   }
 
+  .md\:mt-4 {
+    margin-top: 1rem;
+  }
+
+  .md\:mt-8 {
+    margin-top: 2rem;
+  }
+
+  .md\:mt-16 {
+    margin-top: 4rem;
+  }
+
+  .md\:mt-12 {
+    margin-top: 3rem;
+  }
+
+  .md\:mt-10 {
+    margin-top: 2.5rem;
+  }
+
   .md\:grid {
     display: grid;
   }
@@ -844,6 +920,14 @@ input::placeholder {
     padding: 1rem;
   }
 
+  .md\:p-6 {
+    padding: 1.5rem;
+  }
+
+  .md\:p-8 {
+    padding: 2rem;
+  }
+
   .md\:px-6 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
@@ -852,6 +936,16 @@ input::placeholder {
   .md\:py-\[8rem\] {
     padding-top: 8rem;
     padding-bottom: 8rem;
+  }
+
+  .md\:py-6 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .md\:py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 
   .md\:pb-4 {
@@ -868,6 +962,10 @@ input::placeholder {
 
   .md\:pt-\[1rem\] {
     padding-top: 1rem;
+  }
+
+  .md\:pb-12 {
+    padding-bottom: 3rem;
   }
 
   .md\:text-5xl {
